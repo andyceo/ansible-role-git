@@ -20,7 +20,7 @@ git:
       autocrlf: 'false'
       safecrlf: 'false'
       ignorecase: 'false'
-      excludesfile: '~/.gitignore\'
+      excludesfile: '~/.gitignore'
       editor: 'nano'
     color:
       diff: 'true'
