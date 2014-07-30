@@ -3,7 +3,6 @@ allow_duplicates: no
 
 dependencies:
   - { role: andyceo.preconf }
-  - { role: andyceo.mc }
 
 galaxy_info:
   author: andyceo
