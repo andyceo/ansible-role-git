@@ -31,6 +31,7 @@ git:
       tool: meld
     push:
       default: simple
-  repositories:
-    ansible-example: git@github.com:andyceo/ansible-example.git
-    ansible-roles: git@github.com:andyceo/ansible-roles.git
+  repositories: {}
+    # Examples:
+    # ansible-example: git@github.com:andyceo/ansible-example.git
+    # ansible-roles: git@github.com:andyceo/ansible-roles.git
