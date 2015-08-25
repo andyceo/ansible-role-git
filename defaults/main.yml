@@ -14,6 +14,8 @@ git:
       ds: 'diff --staged'
       lg: 'log -p'
       who: 'shortlog -s --'
+      tagdt: log --tags --simplify-by-decoration --pretty=format:'%ai %d'
+      tagdate: log --date-order --graph --tags --simplify-by-decoration --pretty=format:'%ai %h %d'
     branch:
       autosetuprebase: 'always'
     core:
