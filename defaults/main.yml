@@ -12,8 +12,11 @@ git:
       df: 'diff'
       dc: 'diff --cached'
       ds: 'diff --staged'
-      lg: 'log -p'
       who: 'shortlog -s --'
+      lp: 'log -p'
+      lg: 'log --graph --pretty=oneline --abbrev-commit'
+      lt: "log --color=always --pretty=format:'%h :: %cD, %Cblue%an%Creset: %Cgreen%s%Creset'"
+      ls: 'log --stat'
       tagdt: log --tags --simplify-by-decoration --pretty=format:'%ai %d'
       tagdate: log --date-order --graph --tags --simplify-by-decoration --pretty=format:'%ai %h %d'
     branch:
